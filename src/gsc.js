@@ -6,6 +6,7 @@
  *
  * @namespace
  * @requires jQuery-2.1.4
+ * @requires OpenLayers-3.13.1
  */
 
 var gsc = {
