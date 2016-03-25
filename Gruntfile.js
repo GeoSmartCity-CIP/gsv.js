@@ -23,7 +23,14 @@ module.exports = function (grunt) {
                     'node_modules/jquery.1/node_modules/jquery/dist/jquery.js',
                     'node_modules/bootstrap/dist/js/bootstrap.js',
                     'src/<%= pkg.name %>.js',
+<<<<<<< HEAD
                     'src/*/*.js'
+=======
+                    'src/auth/LoginSession.js',
+                    'src/auth/User.js',
+                    'src/auth/auth.js',
+                    'src/map/Map.js'
+>>>>>>> branch 'feature/map' of https://github.com/GeoSmartCity-CIP/gsc-client.git
                 ],
                 dest: 'dist/<%= pkg.name %>.js'
             },
